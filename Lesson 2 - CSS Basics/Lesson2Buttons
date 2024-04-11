@@ -1,0 +1,125 @@
+<style>
+ .Uber{
+    background-color: 0;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border: none;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+ }
+
+ .Amazon{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 165px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+ }
+
+ .Github{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 35px;
+    width: 77px;
+    border-radius: 3px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+ }
+
+ .Bootstrap{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 35px;
+    width: 100px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+ }
+
+ .Bootstrap2{
+    background-color: white;
+    border-color: rgb(108,117,125);
+    border-style: solid;
+    border-radius: 2px;
+    color: rgb(108,117,125);
+    height: 35px;
+    width: 100px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+ }
+
+ .LinkedIn{
+    background-color: rgb(10, 102, 194);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 218px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+ }
+
+ .LinkedIn2{
+    background-color: white;
+    border-color: rgb(10, 102, 194);
+    border-radius: 20px;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+    height: 40px;
+    width: 85px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+ }
+</style>
+
+<p>Uber Button
+<button class="Uber">
+    Request now
+</button>
+</p>
+
+<p>Amazon Button
+<button class="Amazon">
+    Add to Cart
+</button>
+</p>
+
+<p>Github Button
+<button class="Github">
+    Sign up
+</button>
+</p>
+
+<p>Bootstrap Buttons
+<button class="Bootstrap">
+    Get Started
+</button>
+
+<button class="Bootstrap2">
+    Download
+</button>
+</p>
+
+<p>LinkedIn Buttons</p>
+<button class="LinkedIn">
+    Apply on company website
+</button>
+
+<button class="LinkedIn2">
+    Save
+</button>
+</p>
