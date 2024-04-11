@@ -1,0 +1,105 @@
+<!-- /* implementation of css code into html */ -->
+<style>
+    .subscribe-button{
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+    
+        /* CSS Box Model is better than using height and width*/
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        
+        /* transitions */
+        transition: opacity .15s;
+    }
+
+    /* pseudoclass */
+    .subscribe-button:hover{
+        opacity: 0.8;
+    }
+
+    /* pseudoclass */
+    .subscribe-button:active{
+        opacity: 0.5;
+    }
+
+    .Google-Button{
+        background-color: white;
+        border-color: rgb(41, 118, 211);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(41, 118, 211);
+        /* height: 36px;
+        width: 62px; */
+
+        /* CSS BOX Model */
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+
+        border-radius: 2px;
+        margin-right: 8px;
+        cursor: pointer;
+
+        /* transitions */
+        transition: background-color .15s, 
+            color .15s;
+
+        vertical-align: top;
+    }
+
+    /* pseudoclass */
+    .Google-Button:hover{
+        background-color: rgb(41, 118, 211);
+        color: white;
+    }
+
+    /* pseudoclass */
+    .Google-Button:active{
+        opacity: 0.7;
+    }
+
+    .Twitter-Button{
+        background-color: rgb(2, 158, 255);
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        /* height: 36px;
+        width: 74px; */
+
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        
+        cursor: pointer;
+        transform: box-shadow 0.15s;
+        vertical-align: top;
+    }
+    
+    .Twitter-Button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+</style>
+
+
+<button class="subscribe-button">
+    SUBSCRIBE
+</button>
+
+<button class="Google-Button">
+    JOIN
+</button>
+
+<button class="Twitter-Button">
+    Tweet
+</button>

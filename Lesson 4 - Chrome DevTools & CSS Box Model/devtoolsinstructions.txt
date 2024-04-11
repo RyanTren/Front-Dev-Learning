@@ -1,0 +1,2 @@
+1) Go to a site and go inspect element
+2) click the elements tab and find the computed sub tab
