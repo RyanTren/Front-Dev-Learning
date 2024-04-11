@@ -9,21 +9,41 @@
         .thumbnail{
             width: 300px;
             height: auto;
+            display: block;
         }
 
         .search-bar{
             
         }
 
+        .video-title{
+            width: 300px;
+        }
+
+
     </style>
 
 
 </head>
 <body>
-
-    <img class="thumbnail" src="thumbnail/hq720.webp">
-    
     <input class="search-bar" type="text" placeholder="Search">
 
+    <img class="thumbnail" src="thumbnail/hq720.webp">
+
+    <!-- 1. Block Element: takes up the entire line -->
+    <!-- 2. Inline-block Element: only takes up as much space as it needs to exe: img and textbox-->
+    <!-- 3. Inline Element: appear within a line of text exe: <strong></strong> -->
+    
+    <p class="video-title">
+       Talking Tech and AI with Google CEO Sundar Pichai! 
+    </p>
+
+    <p class="video-autho">
+        Marques Brownlee
+    </p>
+
+    <p class="video-stats">
+        3.4M Views &#183; 6 months ago
+    </p>
 </body>
 </html>
