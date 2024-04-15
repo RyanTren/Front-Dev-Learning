@@ -22,6 +22,7 @@
 
         .thumbnail-row{
             margin-bottom: 12px;
+            position: relative;
         }
 
         .video-author,
@@ -34,12 +35,28 @@
             margin-bottom: 4px;
         }
 
-        .video-grid{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 16px;
-            row-gap: 40px;
-        }
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 16px;
+    row-gap: 40px;
+}
+
+.video-time{
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+    position: absolute;
+    right: 8px;
+    bottom: 10px;    
+}
 
 
     
