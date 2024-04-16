@@ -1,11 +1,16 @@
+p{
+    font-family: Roboto, Arial;
+    font-size: 14px;
+}
+
 .thumbnail{
     width: 100%;
 }
 
 .video-title{
-    line-height: 20px;
+    line-height: 24px;
     margin-top: 0px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     margin-bottom: 10px;
@@ -50,16 +55,43 @@
     row-gap: 40px;
 }
 
+/* Responsive Size */
+@media (max-width: 600px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
 .video-time{
     font-family: Roboto, Arial;
     font-size: 12px;
     font-weight: 500;
     background-color: black;
     color: white;
-    padding-top: 4px;
+    /* padding-top: 4px;
     padding-bottom: 4px;
     padding-left: 4px;
-    padding-right: 4px;
+    padding-right: 4px; */
+
+    /* CSS Shortcuts */
+    /* val 1 = top */
+    /* val 2 = bottom */
+    /* val 3 = right */
+    /* val 4 = left */
+    padding: 4px 10px 20px 30px;
     border-radius: 2px;
     position: absolute;
     right: 8px;
