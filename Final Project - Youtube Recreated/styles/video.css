@@ -11,6 +11,13 @@
     margin-bottom: 10px;
 }
 
+.video-title a {
+    text-decoration: none; /* Remove underlining */
+    color: inherit; /* Use the default text color */
+    outline: none; /* Remove the outline when focused (for accessibility) */
+}
+
+
 .video-info-grid{
     display: grid;
     grid-template-columns: 50px 1fr;
